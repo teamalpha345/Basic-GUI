@@ -36,17 +36,17 @@
 
 /* Begin PBXFileReference section */
 		AF95641F1ED503F4006CCB42 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
-		AFFED0481E8B261800D62644 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFED0481E8B261800D62644 /* preload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = preload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFED04B1E8B261800D62644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFFED04D1E8B261800D62644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFFED0501E8B261800D62644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFFED0521E8B261800D62644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFFED0551E8B261800D62644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFFED0571E8B261800D62644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFFED05C1E8B261800D62644 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFED05C1E8B261800D62644 /* preloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = preloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFED0601E8B261800D62644 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		AFFED0621E8B261800D62644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFFED0671E8B261800D62644 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFED0671E8B261800D62644 /* preloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = preloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFED06B1E8B261800D62644 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		AFFED06D1E8B261800D62644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFFED0801E8B344C00D62644 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		AFFED03F1E8B261700D62644 = {
 			isa = PBXGroup;
 			children = (
-				AFFED04A1E8B261800D62644 /* test */,
+				AFFED04A1E8B261800D62644 /* preload */,
 				AFFED05F1E8B261800D62644 /* testTests */,
 				AFFED06A1E8B261800D62644 /* testUITests */,
 				AFFED0491E8B261800D62644 /* Products */,
@@ -91,14 +91,14 @@
 		AFFED0491E8B261800D62644 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFFED0481E8B261800D62644 /* test.app */,
-				AFFED05C1E8B261800D62644 /* testTests.xctest */,
-				AFFED0671E8B261800D62644 /* testUITests.xctest */,
+				AFFED0481E8B261800D62644 /* preload.app */,
+				AFFED05C1E8B261800D62644 /* preloadTests.xctest */,
+				AFFED0671E8B261800D62644 /* preloadUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFFED04A1E8B261800D62644 /* test */ = {
+		AFFED04A1E8B261800D62644 /* preload */ = {
 			isa = PBXGroup;
 			children = (
 				AFFED04B1E8B261800D62644 /* AppDelegate.swift */,
@@ -111,6 +111,7 @@
 				AF95641F1ED503F4006CCB42 /* test-Bridging-Header.h */,
 				AFFED0571E8B261800D62644 /* Info.plist */,
 			);
+			name = preload;
 			path = test;
 			sourceTree = "<group>";
 		};
@@ -135,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AFFED0471E8B261700D62644 /* test */ = {
+		AFFED0471E8B261700D62644 /* preload */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFFED0701E8B261800D62644 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = AFFED0701E8B261800D62644 /* Build configuration list for PBXNativeTarget "preload" */;
 			buildPhases = (
 				AFFED0441E8B261700D62644 /* Sources */,
 				AFFED0451E8B261700D62644 /* Frameworks */,
@@ -147,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = preload;
 			productName = test;
-			productReference = AFFED0481E8B261800D62644 /* test.app */;
+			productReference = AFFED0481E8B261800D62644 /* preload.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AFFED05B1E8B261800D62644 /* testTests */ = {
+		AFFED05B1E8B261800D62644 /* preloadTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFFED0731E8B261800D62644 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = AFFED0731E8B261800D62644 /* Build configuration list for PBXNativeTarget "preloadTests" */;
 			buildPhases = (
 				AFFED0581E8B261800D62644 /* Sources */,
 				AFFED0591E8B261800D62644 /* Frameworks */,
@@ -165,14 +166,14 @@
 			dependencies = (
 				AFFED05E1E8B261800D62644 /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = preloadTests;
 			productName = testTests;
-			productReference = AFFED05C1E8B261800D62644 /* testTests.xctest */;
+			productReference = AFFED05C1E8B261800D62644 /* preloadTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AFFED0661E8B261800D62644 /* testUITests */ = {
+		AFFED0661E8B261800D62644 /* preloadUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFFED0761E8B261800D62644 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = AFFED0761E8B261800D62644 /* Build configuration list for PBXNativeTarget "preloadUITests" */;
 			buildPhases = (
 				AFFED0631E8B261800D62644 /* Sources */,
 				AFFED0641E8B261800D62644 /* Frameworks */,
@@ -183,9 +184,9 @@
 			dependencies = (
 				AFFED0691E8B261800D62644 /* PBXTargetDependency */,
 			);
-			name = testUITests;
+			name = preloadUITests;
 			productName = testUITests;
-			productReference = AFFED0671E8B261800D62644 /* testUITests.xctest */;
+			productReference = AFFED0671E8B261800D62644 /* preloadUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AFFED0431E8B261700D62644 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = AFFED0431E8B261700D62644 /* Build configuration list for PBXProject "preload" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFFED0471E8B261700D62644 /* test */,
-				AFFED05B1E8B261800D62644 /* testTests */,
-				AFFED0661E8B261800D62644 /* testUITests */,
+				AFFED0471E8B261700D62644 /* preload */,
+				AFFED05B1E8B261800D62644 /* preloadTests */,
+				AFFED0661E8B261800D62644 /* preloadUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,12 +295,12 @@
 /* Begin PBXTargetDependency section */
 		AFFED05E1E8B261800D62644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AFFED0471E8B261700D62644 /* test */;
+			target = AFFED0471E8B261700D62644 /* preload */;
 			targetProxy = AFFED05D1E8B261800D62644 /* PBXContainerItemProxy */;
 		};
 		AFFED0691E8B261800D62644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AFFED0471E8B261700D62644 /* test */;
+			target = AFFED0471E8B261700D62644 /* preload */;
 			targetProxy = AFFED0681E8B261800D62644 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = three45.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/preload.app/preload";
 			};
 			name = Debug;
 		};
@@ -470,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = three45.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/preload.app/preload";
 			};
 			name = Release;
 		};
@@ -503,7 +504,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFFED0431E8B261700D62644 /* Build configuration list for PBXProject "test" */ = {
+		AFFED0431E8B261700D62644 /* Build configuration list for PBXProject "preload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFFED06E1E8B261800D62644 /* Debug */,
@@ -512,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFFED0701E8B261800D62644 /* Build configuration list for PBXNativeTarget "test" */ = {
+		AFFED0701E8B261800D62644 /* Build configuration list for PBXNativeTarget "preload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFFED0711E8B261800D62644 /* Debug */,
@@ -521,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFFED0731E8B261800D62644 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		AFFED0731E8B261800D62644 /* Build configuration list for PBXNativeTarget "preloadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFFED0741E8B261800D62644 /* Debug */,
@@ -530,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFFED0761E8B261800D62644 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		AFFED0761E8B261800D62644 /* Build configuration list for PBXNativeTarget "preloadUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFFED0771E8B261800D62644 /* Debug */,
